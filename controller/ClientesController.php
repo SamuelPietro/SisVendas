@@ -109,11 +109,4 @@ class Controller
         require('view/Clientes/incluir.php');
         require('view/footer.php');
     }
-    public function importar()
-    {
-        require('view/header.php');
-        require('view/Clientes/barra.php');
-        require('view/Clientes/incluir.php');
-        require('view/footer.php');
-    }
 }

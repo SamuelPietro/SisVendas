@@ -85,11 +85,4 @@ class Controller
         require('view/Servicos/incluir.php');
         require('view/footer.php');
     }
-    public function importar()
-    {
-        require('view/header.php');
-        require('view/Servicos/barra.php');
-        require('view/Servicos/incluir.php');
-        require('view/footer.php');
-    }
 }

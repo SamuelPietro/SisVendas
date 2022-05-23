@@ -12,13 +12,35 @@
         <meta name="language" content="Portuguese">
         <meta name="author" content="Samuel Barbosa">
 
+        <script src="dist/jquery/jquery-3.6.0.min.js"></script>
         <link href="dist/bootstrap/css/bootstrap.min.css"rel="stylesheet">
         <script src="dist/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="dist/jquery/jquery-3.6.0.min.js"></script>
         <link href="dist/fontawesome/css/all.css" rel="stylesheet">
-
         <script src="dist/jqueryMask/jquery.mask.js"></script>
-        <script type="text/javascript" src="assets/js/forms.js"></script> <!-- Validação dos forms em Jquery -->
+
+
+        <script src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript" src="assets/js/js.js"></script>
+
+
+        <style>
+        .table {
+            white-space: nowrap;
+        }
+        @media print {
+            body * {
+                visibility: hidden;
+            }
+            print, print * {
+                visibility: visible;
+            }
+            print {
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+        }
+        </style>
 
 
     </head>

@@ -6,7 +6,7 @@ i<div class="container">
         <div class="card-body">
             <form method="POST">
                 <div class="form-group row mt-3">
-                    <label class="col-3 col-form-label" for="razaoSocial">Razão Social</label>
+                    <label class="col-12 col-form-label" for="razaoSocial">Razão Social</label>
                     <div class="col-12">
                         <input id="razaoSocial" name="razaoSocial" type="text" class="form-control">
                     </div>

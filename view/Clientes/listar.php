@@ -32,6 +32,7 @@
                         transform: scale(1.3);
                     }
                 </style>
+                <div class="table-responsive">
                 <table class="table">
                     <thead>
                         <tr>
@@ -45,6 +46,7 @@
                     </tbody>
                     </tbody>
                 </table>
+                </div>
             </div>
         </div>
     </div>

@@ -6,7 +6,7 @@
         <div class="card-body">
             <form method="POST">
                 <div class="form-group row mt-3">
-                    <label class="col-3 col-form-label" for="razaoSocial">Razão Social</label>
+                    <label class="col-12 col-form-label" for="razaoSocial">Razão Social</label>
                     <div class="col-12">
                         <input id="razaoSocial" name="razaoSocial" type="text" class="form-control"
                         value="<?php echo $this->model->getRazaoSocial(); ?>">
@@ -53,7 +53,7 @@
                 <div class="form-group row mt-3">
                     <div class="offset-3 col-9">
                         <button name="submit" type="submit" class="btn btn-success">SALVAR</button>
-                        <button name="reset" type="reset" class="btn btn-danger">LIMPAR</button>
+                        <button name="reset" type="reset" class="btn btn-danger">REDEFINIR</button>
                     </div>
                 </div>
             </form>

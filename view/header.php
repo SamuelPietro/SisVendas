@@ -2,7 +2,7 @@
     <header>
     <div class="px-3 py-2 bg-Light border-bottom">
       <div class="container">
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start ">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
           <a href="?atividade=Home" class="d-flex align-items-center
           my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
             <img class="bi me-2" width="auto" height="45" role="img"
@@ -31,6 +31,14 @@
               <i class="fa-solid fa-toolbox bi d-block mx-auto mb-1" style="font-size:35px;color:#F03E5D;"></i>
               <font style="vertical-align: inherit;color:#F03E5D;">
                 Serviços
+            </font></a>
+            </li>
+
+            <li>
+              <a href="?atividade=Vendas" class="nav-link text-light">
+              <i class="fa-solid fa-wallet bi d-block mx-auto mb-1" style="font-size:35px;color:#F03E5D;"></i>
+              <font style="vertical-align: inherit;color:#F03E5D;">
+                Vendas
             </font></a>
             </li>
 

@@ -36,7 +36,7 @@ class ServicosModel
         foreach ($array as $key => $value) {
             echo '<tr><th scope="row">' . $value['id'] . '</th>
         <td>' . $value['descricaoServico'] . '</td>
-        <td>' . $value['valorHoraServico'] . '</td>
+        <td>' . moeda($value['valorHoraServico']) . '</td>
 
         <td>
 

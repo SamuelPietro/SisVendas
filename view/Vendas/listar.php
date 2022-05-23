@@ -2,7 +2,7 @@
 <div class="container">
     <div class="card">
         <div class="card-header">
-            Listando serviços
+            Listando vendas
         </div>
         <div class="card-body">
             <div class="table-responsive">
@@ -33,12 +33,13 @@
                     }
                 </style>
                 <div class="table-responsive">
-                <table class="table ">
+                <table class="table">
                     <thead>
                         <tr>
-                            <th scope="col">Código Serviço</th>
-                            <th scope="col">Descrição</th>
-                            <th scope="col">Valor Hora</th>
+                            <th scope="col">Cliente</th>
+                            <th scope="col">Data da venda</th>
+                            <th scope="col">Serviço</th>
+                            <th scope="col">Valor Faturado</th>
                             <th scope="col">Ações</th>
                         </tr>
                     </thead>

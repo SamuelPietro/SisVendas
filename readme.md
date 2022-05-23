@@ -23,5 +23,6 @@ A aplicação foi desenhada com base no seguinte problema:
  - [Jquery v3.6.x](https://blog.jquery.com/2021/03/02/jquery-3-6-0-released/)
  - [Font-Awesome v6.1.x](https://fontawesome.com/v6/docs/changelog/)
  - [jQuery Mask Plugin v1.14.16](https://igorescobar.github.io/jQuery-Mask-Plugin/)
+ - [Google Charts](https://developers.google.com/chart)
 
 
