@@ -2,7 +2,8 @@
 <html lang="pt-BR">
     <head>
         <title><?php echo APP_NOME; ?></title>
-        <link rel="icon" href="assets/imagens/icone.ico">
+        <link rel="shortcut icon" href="assets/imagens/favicon.png" type="image/x-icon">
+        <link rel="apple-touch-icon" href="assets/imagens/webclip.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="title" content="<?php echo APP_NOME; ?>">
         <meta name="description" content="<?php echo APP_DESC; ?>">
