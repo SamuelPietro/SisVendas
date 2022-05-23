@@ -9,7 +9,7 @@
   * Implementação modulo vendas e relatorios
 
 * Future -- 0.2.1
-    * Verificar quando o produto ou cliente for excluido ser existe venda cadastrada e excluir a venda junto
+    * Verificar quando o produto/cliente for excluido se existe venda cadastrada  e excluir a venda junto para não causar erros
     * Filtros nos graficos (Exibir x dias)
     * Impressão dos relatorios e tabelas
 
