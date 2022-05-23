@@ -1,23 +1,2 @@
-CNPJ;Razão Social;Endereço;Cidade;UF;CEP;Data Venda;Cod_SERVICO;Descrição do Serviço;Horas Trabalhadas;Valor Faturado;Valor Custo;Resultado Venda;
-4819665000182;FACE Digital;Rua Guia Lopes, 236;Joinville;SC;89218-060;01/06/2021;1;ABC;100;15.000,00;8.000,00;7.000,00;
-;;;;;;;;;;;;;
-;;;;;;;;;;;;;
-;;;;;;;;;;;;;
-;;;;;;;;;;;;;
-;;;;;;;;;;;;;
-;;;;;;;;;;;;;
-;;;;;;;;;;;;;
-;;;;;;;;;;;;;
-;;;;;;;;;;;;;
-;;;;;;;;;;;;;
-;;;;;;;;;;;;;
-;;;;;;;;;;;;;
-;;;;;;;;;;;;;
-;;;;;;;;;;;;;
-;;;;;;;;;;;;;
-;;;;;;;;;;;;;
-;;;;;;;;;;;;;
-;;;;;;;;;;;;;
-;;;;;;;;;;;;;
-;;;;;;;;;;;;;
-;;;;;;;;;;;;;
+CNPJ;Razão Social;Endereço;Cidade;UF;CEP;Data Venda;Cod_SERVICO;Descrição do Serviço;Horas Trabalhadas;Valor Faturado;Valor Custo;Resultado Venda
+04819665000182;FACE Digital;Rua Guia Lopes, 236;Joinville;SC;89218-060;01/06/2021;1;ABC; 100,00 ; 15.000,00 ; 8.000,00 ; 7.000,00 

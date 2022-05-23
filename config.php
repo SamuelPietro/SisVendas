@@ -11,5 +11,5 @@ define('DB_PASS', ''); // Senha do bando de dados
 define('CHARSET', 'utf8'); // Tipo de caracteres (Por padrão UTF-8)
 define('SGBD', 'mysql'); // Tipo do banco de dados
 define('SERVER', 'linux'); // Sistema do Server
-define('VERSAO', '0.2.0'); // Versão da aplicação
+define('VERSAO', '0.2.1'); // Versão da aplicação
 define('DEBUG', 'true'); // Ativa a visualização dos erros

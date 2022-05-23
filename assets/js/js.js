@@ -4,7 +4,7 @@ $(document).ready(function () {
     google.charts.setOnLoadCallback(vendasServico);
     google.charts.setOnLoadCallback(vendasCliente);
     google.charts.setOnLoadCallback(vendasDiarias);
-    // Forms
+    // Detalhar
     $("#btnExpandir").click(function () {
         $("#CntDetalhar").show("fast");
         $("#btnRecolher").show("fast");
@@ -15,6 +15,7 @@ $(document).ready(function () {
         $("#btnRecolher").hide("fast");
         $("#btnExpandir").show("fast");
     });
+    //Forms
     $('.cnpj').mask('00.000.000/0000-00', { reverse: true });
     $('.cep').mask('00000-000');
     $('.valor').mask("#0,00", { reverse: true });

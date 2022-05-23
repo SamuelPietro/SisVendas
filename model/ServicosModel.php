@@ -12,6 +12,8 @@ class ServicosModel
     public function __construct()
     {
         $this->dao = new \dao\Dao();
+        $this->conn = new \conexao\Conexao();
+        $this->pdo = $this->conn->getInstance();
     }
 
     public function excluir($id, $tabela)
@@ -61,6 +63,43 @@ class ServicosModel
             $this->valorHoraServico = $value['valorHoraServico'];
             $this->datCadServico = $value['datCadServico'];
             return $this;
+        }
+    }
+    public function editar()
+    {
+        $descricaoServico = filter_input(INPUT_POST, 'descricaoServico', FILTER_DEFAULT);
+            $valorHoraServico = filter_input(INPUT_POST, 'valorHoraServico', FILTER_DEFAULT);
+            $id = filter_input(INPUT_GET, 'id', FILTER_DEFAULT);
+            $stmt = $this->pdo->prepare("UPDATE servicos SET descricaoServico = :descricaoServico,
+            valorHoraServico = :valorHoraServico WHERE id = :id");
+            $stmt->execute(array(
+                'id' => $id,
+                'descricaoServico' => $descricaoServico,
+                'valorHoraServico' => $valorHoraServico,
+                ));
+                $rowCount = $stmt->rowCount();
+        if ($rowCount == 1) {
+            echo '<div class="container alert alert-success" role="alert">
+                Sua edição foi salva com sucesso!
+              </div>';
+        }
+    }
+    public function incluir()
+    {
+        $descricaoServico = filter_input(INPUT_POST, 'descricaoServico', FILTER_DEFAULT);
+            $valorHoraServico = filter_input(INPUT_POST, 'valorHoraServico', FILTER_DEFAULT);
+            $stmt = $this->pdo->prepare("INSERT INTO servicos (descricaoServico, valorHoraServico)
+            VALUES (:descricaoServico, :valorHoraServico)");
+
+            $stmt->execute(array(
+                'descricaoServico' => $descricaoServico,
+                'valorHoraServico' => $valorHoraServico,
+                ));
+                $rowCount = $stmt->rowCount();
+        if ($rowCount == 1) {
+            echo '<div class="container alert alert-success" role="alert">
+                Serviço cadastrado com sucesso!
+              </div>';
         }
     }
     /**

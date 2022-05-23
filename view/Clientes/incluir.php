@@ -12,7 +12,7 @@ i<div class="container">
                     </div>
                 </div>
                 <div class="form-group row mt-3">
-                    <label class="col-12 col-form-label" for="cnpj">CNPJ</label>
+                    <label class="col-12 col-form-label cnpj" ifor="cnpj">CNPJ</label>
                     <div class="col-12">
                         <input id="cnpj" name="cnpj" type="text" class="cnpj form-control">
                     </div>
@@ -37,7 +37,7 @@ i<div class="container">
                         </div>
                 </div>
                 <div class="form-group row mt-3">
-                    <label class="col-12 col-form-label" for="cep">CEP</label>
+                    <label class="col-12 col-form-label cep" for="cep">CEP</label>
                         <div class="col-12">
                             <input id="cep" name="cep" type="text" class="cep form-control">
                         </div>

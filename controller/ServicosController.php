@@ -9,8 +9,6 @@ class Controller
     public function __construct()
     {
         $this->model = new \model\ServicosModel();
-        $this->conn = new \conexao\Conexao();
-        $this->pdo = $this->conn->getInstance();
     }
     public function index()
     {
@@ -41,22 +39,7 @@ class Controller
         require('view/Servicos/barra.php');
 
         if (isset($_POST['descricaoServico'])) {
-            $descricaoServico = filter_input(INPUT_POST, 'descricaoServico', FILTER_DEFAULT);
-            $valorHoraServico = filter_input(INPUT_POST, 'valorHoraServico', FILTER_DEFAULT);
-            $id = filter_input(INPUT_GET, 'id', FILTER_DEFAULT);
-            $stmt = $this->pdo->prepare("UPDATE servicos SET descricaoServico = :descricaoServico,
-            valorHoraServico = :valorHoraServico WHERE id = :id");
-            $stmt->execute(array(
-                'id' => $id,
-                'descricaoServico' => $descricaoServico,
-                'valorHoraServico' => $valorHoraServico,
-                ));
-                $rowCount = $stmt->rowCount();
-            if ($rowCount == 1) {
-                echo '<div class="container alert alert-success" role="alert">
-                Sua edição foi salva com sucesso!
-              </div>';
-            }
+            $this->model->editar();
         }
         require('view/Servicos/editar.php');
         require('view/footer.php');
@@ -66,21 +49,7 @@ class Controller
         require('view/header.php');
         require('view/Servicos/barra.php');
         if (isset($_POST['descricaoServico'])) {
-            $descricaoServico = filter_input(INPUT_POST, 'descricaoServico', FILTER_DEFAULT);
-            $valorHoraServico = filter_input(INPUT_POST, 'valorHoraServico', FILTER_DEFAULT);
-            $stmt = $this->pdo->prepare("INSERT INTO servicos (descricaoServico, valorHoraServico)
-            VALUES (:descricaoServico, :valorHoraServico)");
-
-            $stmt->execute(array(
-                'descricaoServico' => $descricaoServico,
-                'valorHoraServico' => $valorHoraServico,
-                ));
-                $rowCount = $stmt->rowCount();
-            if ($rowCount == 1) {
-                echo '<div class="container alert alert-success" role="alert">
-                Serviço cadastrado com sucesso!
-              </div>';
-            }
+            $this->model->incluir();
         }
         require('view/Servicos/incluir.php');
         require('view/footer.php');
