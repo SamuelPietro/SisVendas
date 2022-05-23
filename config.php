@@ -1,8 +1,8 @@
 <?php
 
-define('APP_NOME', 'Face Digital'); // Nome da aplicação
-define('APP_DESC', 'Sistema de indicadores de vendas'); // Descrição da aplicação
-define('APP_KEYS', 'vendas, relatorios, face digital'); // Keyords da aplicação (Seperado por virgulas).
+define('APP_NOME', 'SisVendas'); // Nome da aplicação
+define('APP_DESC', 'Sistema de vendas'); // Descrição da aplicação
+define('APP_KEYS', 'vendas, relatorios, clientes, serviços'); // Keyords da aplicação (Seperado por virgulas).
 define('APP_URL', 'http://localhost/face/'); // Endereço base da aplicação
 define('DB_HOST', 'localhost'); // Caminho do banco de dados
 define('DB_NOME', 'face'); // Nome do Banco de dados
