@@ -1,12 +1,22 @@
 Copyright 2022 Samuel Pietro
 
-Permission for personal use, free of charge, is granted to anyone obtaining a copy of this Software and associated documentation files to handle the Software without restriction, including, rights to use, modify, merge.
-You may not commercially use, sublicense, distribute and/or sell copies of the Software under any circumstances.
+Permission for personal use, free of charge, is granted to anyone obtaining
+a copy of this Software and associated documentation files to handle the
+Software without restriction, including, rights to use, modify, merge.
+You may not commercially use, sublicense, distribute and/or sell copies
+of the Software under any circumstances.
 
 Any type of use, even if you are just keeping copies, is subject to the following conditions:
 
-The above copyright notice and this permission notice must be included on all copies or substantial portions of the Software.
+The above copyright notice and this permission notice must be included on
+ all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN THE EVENT OF BREACHES OF THIS LICENSE, THE AUTHORS OR COPYRIGHT HOLDERS SHALL NOT BE LIABLE FOR ANY CLAIMS, DAMAGES OR OTHER LIABILITY, WHETHER IN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING OUT OF, FROM OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALS IN THE PROGRAMS.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN THE EVENT OF BREACHES
+ OF THIS LICENSE, THE AUTHORS OR COPYRIGHT HOLDERS SHALL NOT BE LIABLE FOR ANY CLAIMS,
+ DAMAGES OR OTHER LIABILITY, WHETHER IN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ OUT OF, FROM OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALS IN THE PROGRAMS.
 
-It elects the forum of Belo Horizonte, MG to judge any action that involves this software as well as the breach of this license.
+It elects the forum of Belo Horizonte, MG to judge any action that involves
+ this software as well as the breach of this license.
