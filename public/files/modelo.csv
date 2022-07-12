@@ -1,0 +1,5 @@
+Razão Social;CNPJ;CEP;Logradouro;Número;Complemento;Bairro;Cidade;UF;Data Venda;Cod_SERVICO;Descrição do Serviço;Horas Trabalhadas;Valor Faturado;Valor Custo;Resultado Venda
+SS Host Ltda;25.269.387/0001-07;33170-010;Avenida Professor Djalma Guimarães;1623;"";Chácaras Santa Inês (São Benedito);Santa Luzia;MG;01/06/2021;1;ABC; 100,00;15.000,00;8.000,00;7.000,00
+SS Host Ltda;25.269.387/0001-07;33170-010;Avenida Professor Djalma Guimarães;1623;"";Chácaras Santa Inês (São Benedito);Santa Luzia;MG;02/06/2021;2;XYZ; 200,00;11.000,00;8.000,00;3.000,00
+Empresa MG;12.345.387/0001-05;31170-050;Rua Paulo Nunes Vieira;100;"";Cidade Nova;Belo Horizonte;MG;03/06/2021;2;XYZ;200,00;15.000,00;8.000,00;7.000,00
+Empresa SP;45.345.123/0001-45;11070-010;Rua Alfredo Albertini;200;até 199/200;Marapé;Santos;SP;04/06/2021;1;ABC;100,00;10.000,00;8.000,00;2.000,00
