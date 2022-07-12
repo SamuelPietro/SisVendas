@@ -4,6 +4,7 @@
 Sistema de vendas completo com importação de planilhas e cadastro de clientes, vendas e relatorios.
 
 
+
 A aplicação foi desenhada com base no seguinte problema:
     O usuário possui um controle de vendas em Planilhas Excel. Ele pretende ter uma forma de subir (upload) essas planilhas na internet,
     atualizando / criando os clientes e abastecendo um cadastro de vendas, para ter visão de seus principais indicadores / Relatórios. 
