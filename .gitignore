@@ -1,2 +1,4 @@
-/.editorconfig
-/.vscode
+composer.lock
+vendor/
+idea/
+
