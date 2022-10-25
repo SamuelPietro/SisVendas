@@ -3,30 +3,34 @@
 
 Sistema de vendas completo com importação de planilhas e cadastro de clientes, vendas e relatorios.
 
+A importação das planilhas de venda são feitas na aba vendas > importar vendas.
+Sempre que importar um cliente ou serviço que não existe no sistema estes serão cadastrados automaticamente. 
 
-
+É possivel encontrar um layout de para importação juntos aos arquivos do sitema, na pasta public/files/modelo.csv
 A aplicação foi desenhada com base no seguinte problema:
     O usuário possui um controle de vendas em Planilhas Excel. Ele pretende ter uma forma de subir (upload) essas planilhas na internet,
     atualizando / criando os clientes e abastecendo um cadastro de vendas, para ter visão de seus principais indicadores / Relatórios. 
 
-## Instalação
+## Instalação em maquina local
 
-1. Clone o repositório para a pasta raiz do seu servidor.
-   * Recomendamos o uso do XAMPP para executar o SisVendas em maquinas locais,
-      mas você pode usar o propio servidor do PHP executando o comando "`php -S localhost:8000 -t public/`".
-
-2. Crie um banco de dados com o nome de sua preferência.
-3. Importe o arquivo "db.sql" dentro do diretório "database".
-4. Informe os dados de configuração do sistema em "Core/config.php".
-5. Execute "composer install" no seu terminal. 
-
+1. Instale o XAMPP [(Download)](https://www.apachefriends.org/download.html)
+2. Após instalado execute-o e inicie os modulos Apache e MySql
+3. Clone o repositório para a pasta raiz do seu host local. "c:/xampp/htdocs".
+4. Em seu navegador vá até http://localhost/phpmyadmin e crie um novo banco de dados com o nome face
+5. Importe o arquivo "db.sql" dentro do diretório "database" para esse novo banco de dados criado.
+6. Execute "composer install" no seu terminal para gerar as rotas. 
 
 
     composer install
-    
 
+7. (Opcional) Altere os dados de configuração do sistema e de acesso ao banco de dados quando preciso em "Core/config.php".
 Agora basta acessar a aplicação em seu navegador usando `localhost`
-* Caso não use o XAMPP o caminho para acessar a aplicação será `localhost:8000`
+
+___
+### Instalação para desenvolvimento
+
+* Para fins de desenvolvimento você pode usar o propio servidor do PHP executando o comando "`php -S localhost:8000 -t public/`".
+Neste caso o caminho para acessar a aplicação será `localhost:8000`
 
 
 ## Desenvolvedor
