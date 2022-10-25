@@ -7,7 +7,7 @@ const APP_AUTHOR = 'Samuel Pietro'; // Author da aplicação
 
 const DB_TYPE = 'mysql'; // mysql or pgsql
 const DB_HOST = '127.0.0.1';
-const DB_NAME = 'db';
+const DB_NAME = 'face';
 const DB_USER = 'root';
 const DB_PASS = '';
 const DB_PORT = '3306';// 3306 or 5432
